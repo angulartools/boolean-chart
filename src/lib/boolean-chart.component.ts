@@ -5,7 +5,6 @@ import { NgStyle } from '@angular/common';
     selector: 'lib-boolean-chart',
     templateUrl: './boolean-chart.component.html',
     styleUrls: ['./boolean-chart.component.scss'],
-    standalone: true,
     imports: [NgStyle]
 })
 export class BooleanChartComponent {
