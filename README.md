@@ -53,7 +53,7 @@ pnpm add @angulartoolsdr/boolean-chart
 Certifique-se de ter as seguintes dependências peer instaladas:
 
 ```bash
-npm install @angular/common@20.0.6 @angular/core@20.0.6
+npm install @angular/common@20.1.4 @angular/core@20.1.4
 ```
 
 ### FontAwesome
