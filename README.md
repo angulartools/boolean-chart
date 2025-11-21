@@ -268,9 +268,9 @@ cd dist/boolean-chart && npm publish
 boolean-chart/
 ├── src/
 │   ├── lib/
-│   │   ├── boolean-chart.component.ts    # Componente principal
-│   │   ├── boolean-chart.component.html  # Template
-│   │   └── boolean-chart.component.scss  # Estilos
+│   │   ├── boolean-chart.ts    # Componente principal
+│   │   ├── boolean-chart.html  # Template
+│   │   └── boolean-chart.scss  # Estilos
 │   └── public-api.ts                     # API pública
 ├── package.json                          # Configurações do pacote
 ├── ng-package.json                       # Configurações ng-packagr
