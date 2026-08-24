@@ -1,12 +1,14 @@
-import { Component, Input } from '@angular/core';
+import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 @Component({
-    selector: 'lib-boolean-chart',
-    templateUrl: './boolean-chart.html',
+  selector: 'lib-boolean-chart',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './boolean-chart.html',
 })
 export class BooleanChart {
 
-  @Input() backgroundColor;
-  @Input() value;
+  backgroundColor = input<string>('#cccccc');
+
+  value = input<boolean>(false);
 
 }
